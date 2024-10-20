@@ -63,7 +63,7 @@
       <section class="container single-product my-5 pt-5">
         <div class="row mt-5">
             <div class="col-lg-5 col-md-6 col-sm-12">
-                <img class="img-fluid w-100 pb-1" src="assets/imgs/gadget1.jpeg"/>
+                <img class="img-fluid w-100 pb-1" src="assets/imgs/gadget1.jpeg" id="mainImg"/>
                 <div class="small-img-group">
                     <div class="small-img-col">
                         <img src="assets/imgs/jogger2.jpeg" width="100%" class="small-img"/>
@@ -111,7 +111,7 @@
               
     
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets\imgs\featured1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -126,7 +126,7 @@
     
     
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured2.jpeg"/>
+                <img class="img-fluid mb-3" src="assets\imgs\featured2.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -141,7 +141,7 @@
     
     
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured3.jpeg"/>
+                <img class="img-fluid mb-3" src="assets\imgs\featured3.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -155,7 +155,7 @@
               </div>
     
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured4.jpeg"/>
+                <img class="img-fluid mb-3" src="assets\imgs\featured4.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -251,5 +251,21 @@
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script>
+        var mainImg = document.getElementById("mainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+
+        for(let i = 0; i < smallImg.length; i++) {
+        smallImg[i].onclick = function(){
+          mainImg.src = smallImg[i].src;
+        }
+      }
+     
+
+
+      </script>
+      
     </body>
     </html>

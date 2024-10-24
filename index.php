@@ -9,14 +9,14 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="C:\xampp\htdocs\ecommerce_project\assets\css\style.css"/>
+    <link rel="stylesheet" href="assets\css\style.css"/>
 </head>
 <body>
     
   <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
         <div class="container">
-          <img class="logo" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\logo.jpeg"/>
+          <img class="logo" src="assets\imgs\logo.jpeg"/>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -65,10 +65,10 @@
       <!--Brand-->
       <section id="brand" class="container">
         <div class="row">
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\brand1.jpeg"/>
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\brand2.jpeg"/>
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\brand3.jpeg"/>
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\brand4.jpeg"/>
+          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets\imgs\brand1.jpeg"/>
+          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets\imgs\brand2.jpeg"/>
+          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets\imgs\brand3.jpeg"/>
+          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets\imgs\brand4.jpeg"/>
         </div>
       </section>
 
@@ -77,7 +77,7 @@
         <div class="row p-0 m-0">
           <!--One-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\1.jpeg"/>
+            <img class="img-fluid" src="assets\imgs\1.jpeg"/>
             <div class="details">
               <h2>Extreamely Awesome Shoes</h2>
               <button class="text-uppercase">Shop Now</button>
@@ -85,7 +85,7 @@
           </div>
           <!-- Two -->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\2.jpeg"/>
+            <img class="img-fluid" src="assets\imgs\2.jpeg"/>
             <div class="details">
               <h2>25% Off</h2>
               <button class="text-uppercase">Shop Now</button>
@@ -94,7 +94,7 @@
 
           <!-- Three -->
            <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\3.jpeg"/>
+            <img class="img-fluid" src="assets\imgs\3.jpeg"/>
             <div class="details">
               <h2>Other Products</h2>
               <button class="text-uppercase">Shop Now</button>
@@ -118,7 +118,7 @@
           
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\featured1.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -133,7 +133,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured2.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\featured2.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -148,7 +148,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured3.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\featured3.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -162,7 +162,7 @@
           </div>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured4.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\featured4.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -201,7 +201,7 @@
           
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\jogger1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\jogger1.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -216,7 +216,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\jogger2.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\jogger2.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -231,7 +231,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\shoe1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\shoe1.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -245,7 +245,7 @@
           </div>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\shoe2.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\shoe2.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -274,7 +274,7 @@
           
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\gadget1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\gadget1.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -289,7 +289,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\gadget2.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\gadget2.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -304,7 +304,7 @@
 
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\gadget3.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\gadget3.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -318,7 +318,7 @@
           </div>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\gadget4.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\gadget4.jpeg"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -347,7 +347,7 @@
             
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\laptop1.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\laptop1.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -362,7 +362,7 @@
   
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\laptop2.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\laptop2.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -377,7 +377,7 @@
   
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\laptop3.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\laptop3.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -391,7 +391,7 @@
             </div>
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\laptop4.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\laptop4.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -420,7 +420,7 @@
             
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\watch1.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\watch1.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -435,7 +435,7 @@
   
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\watch2.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\watch2.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -450,7 +450,7 @@
   
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\watch3.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\watch3.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -464,7 +464,7 @@
             </div>
   
             <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-              <img class="img-fluid mb-3" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\watch4.jpeg"/>
+              <img class="img-fluid mb-3" src="assets\imgs\watch4.jpeg"/>
               <div class="star">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -484,7 +484,7 @@
   <footer class="mt-5 py-5">
     <div class="row container mx-auto mt-5">
       <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-        <img class="logo" src="C:\xampp\htdocs\ecommerce_project\assets\imgs\logo.jpeg"/>
+        <img class="logo" src="assets\imgs\logo.jpeg"/>
         <p class="pt-3">We try to provide the best quality products in affordable prices</p>
       </div>
       <div class="footer-one col-lg-3 col-md-6 col-sm-12">
@@ -519,11 +519,11 @@
        <div class="footer-one col-lg-3 col-md-6 col-sm-12">
         <h5 class="pb-2">Instagram</h5>
         <div class="row">
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured1.jpeg" class="img-fluid w-25 h-100 m-2"/>
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured2.jpeg" class="img-fluid w-25 h-100 m-2"/>
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured3.jpeg" class="img-fluid w-25 h-100 m-2"/>
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\featured4.jpeg" class="img-fluid w-25 h-100 m-2"/>
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\laptop3.jpeg" class="img-fluid w-25 h-100 m-2"/>
+          <img src="assets\imgs\featured1.jpeg" class="img-fluid w-25 h-100 m-2"/>
+          <img src="assets\imgs\featured2.jpeg" class="img-fluid w-25 h-100 m-2"/>
+          <img src="assets\imgs\featured3.jpeg" class="img-fluid w-25 h-100 m-2"/>
+          <img src="assets\imgs\featured4.jpeg" class="img-fluid w-25 h-100 m-2"/>
+          <img src="assets\imgs\laptop3.jpeg" class="img-fluid w-25 h-100 m-2"/>
         </div>
        </div>
     </div>
@@ -531,7 +531,7 @@
     <div class="copyright mt-5">
       <div class="row container mx-auto">
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-          <img src="C:\xampp\htdocs\ecommerce_project\assets\imgs\payment.jpeg"/>
+          <img src="assets\imgs\payment.jpeg"/>
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4 text-nowrap mb-2">

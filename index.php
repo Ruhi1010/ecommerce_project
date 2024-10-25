@@ -117,8 +117,11 @@
           
           
 
+        <?php include('server/get_featured_products.php'); ?>
+
+        <?php while($row = $featured_products->fetch_assoc()){ ?>
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\featured1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets\imgs\<?php echo $row['product_image']; ?>"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -126,54 +129,14 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div> 
-            <h5 class="p-name">Sports Shoes</h5>
-             <h4 class="p-price">৳1,499.00</h4>
+            <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
+             <h4 class="p-price">৳ <?php echo $row['product_price']; ?></h4>
              <button class="buy-btn">Buy Now</button>
           </div>
+          <?php } ?>
 
 
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\featured2.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">iPhhone 16</h5>
-             <h4 class="p-price">৳124,999.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
-
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\featured3.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">Samsung Galaxy S24 Ultra 5G</h5>
-             <h4 class="p-price">৳110,000.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\featured4.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">Apple Watch Series 9</h5>
-             <h4 class="p-price">৳44,000.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
+          
 
         </div>
       </section>

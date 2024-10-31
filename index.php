@@ -163,8 +163,11 @@
           
           
 
+        <?php include('server/get_shoes_joggers.php'); ?>
+
+        <?php while($row=$shoes_joggers_products->fetch_assoc()){?>
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\jogger1.jpeg"/>
+            <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>"/>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -172,54 +175,13 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div> 
-            <h5 class="p-name">Nike Joggers</h5>
-             <h4 class="p-price">৳1,299.00</h4>
+            <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
+             <h4 class="p-price">৳ <?php echo $row['product_price']; ?></h4>
              <button class="buy-btn">Buy Now</button>
           </div>
 
+          <?php } ?>
 
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\jogger2.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">Puma Joggers</h5>
-             <h4 class="p-price">৳1,299.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
-
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\shoe1.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">Nike Sneakers</h5>
-             <h4 class="p-price">৳2,499.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img class="img-fluid mb-3" src="assets\imgs\shoe2.jpeg"/>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div> 
-            <h5 class="p-name">Puma Sneakers</h5>
-             <h4 class="p-price">৳2,499.00</h4>
-             <button class="buy-btn">Buy Now</button>
-          </div>
 
         </div>
       </section>

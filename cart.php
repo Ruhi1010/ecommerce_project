@@ -64,6 +64,9 @@ if(isset($_POST['add_to_cart'])){
   $product_id = $_POST['product_id'];
   unset($_SESSION['cart'][$product_id]);
 
+  // calculate total
+  calculateTotalCart();
+
 
 
 
@@ -80,6 +83,9 @@ if(isset($_POST['add_to_cart'])){
 
   // return array back to its place 
   $_SESSION['cart'][$product_id] = $product_array;
+
+  //calculate total
+  calculateTotalCart();
 
 }else{
   header('Location: index.php');
@@ -239,7 +245,10 @@ function calculateTotalCart(){
 
 
         <div class="checkout-container">
-            <button class="btn checkout-btn">Check Out</button>
+          <form action="checkout.php" method="POST">
+          <input type="submit" class="btn checkout-btn" value="Checkout" name="checkout"/>
+          </form>
+            
         </div>
 
 

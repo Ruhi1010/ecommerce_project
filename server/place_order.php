@@ -36,7 +36,7 @@ if(isset($_POST['place_order'])){
 
 
     // 3.get products from cart (from session)
-    foreach($_SESSION['cart']as $key => $value){
+    foreach($_SESSION['cart'] as $key => $value){
         $product = $_SESSION['cart'][$key]; // []
         $product_id = $product['product_id'];
         $product_name = $product['product_name'];
@@ -45,7 +45,7 @@ if(isset($_POST['place_order'])){
         $product_quantity = $product['product_quantity'];
 // 4.store each single item in order_item in the database
         $stmt1 = $conn->prepare("INSERT INTO order_items (order_id,product_id,product_name,product_image,product_price,product_quantity,user_id,order_date)
-        VALUES (?,?,?,?,?,?,?,?) ");
+                           VALUES (?,?,?,?,?,?,?,?) ");
         $stmt1->bind_param("iissiiis", $order_id, $product_id, $product_name, $product_image, $product_price, $product_quantity,$user_id,$order_date);
         $stmt1->execute();
     }
@@ -60,7 +60,7 @@ if(isset($_POST['place_order'])){
 
     // 6.inform user whether everything is fine or there is a problem
 
-header('loaction: ../payment.php?order_status="order placed successfully" ');
+header('location: ../payment.php?order_status=order placed successfully ');
 }
 
 

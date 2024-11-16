@@ -88,7 +88,7 @@ if(isset($_POST['add_to_cart'])){
   calculateTotalCart();
 
 }else{
-  //header('Location: index.php');
+ // header('Location: index.php');
 }
 
 

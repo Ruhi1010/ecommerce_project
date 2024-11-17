@@ -63,6 +63,21 @@ if($password !== $confirmPassword){
 
 
 
+ //get oders
+ if(isset($_SESSION['logged_in'])){
+  $user_id = $_SESSION['user_id'];
+  $stmt = $conn->prepare("SELECT * FROM orders WHERE user_id =? ");
+$stmt->bind_param('i',$user_id);
+$stmt->execute();
+
+$orders = $stmt->get_result();//[]
+
+
+
+
+ }
+
+
 
 
 
@@ -193,24 +208,46 @@ if($password !== $confirmPassword){
 
     <table class="mt-5 pt-5">
         <tr>
-            <th>Product</th>
-            <th>Date</th>
-        </tr>
+            <th>Order id</th>
+            <th>Order cost</th>
+            <th> Order status </th>
+            <th> Order Date </th>
+            <th> Order details </th>
+
+        <</tr>
+
+        <?php while($row = $orders->fetch_assoc() ){ ?>
         <tr>
             <td>
-               <div class="product-info">
-                <img src="assets/imgs/featured1.jpeg">
+               <div >
+               
                 <div>
-                    <p class="mt-3">Sports Shoe</p>
+                    <p class="mt-3"><?php echo $row['order_id']; ?></p>
                 </div>
                </div>
             </td>
+<td> 
+  <span><?php echo $row['order_cost']; ?></span>
+        </td>
+        <td> 
+  <span><?php echo $row['order_status']; ?></span>
+        </td>
 
-          <td>
-            <span>21-10-2024</span>
-          </td>
+        <td> 
+  <span><?php echo $row['order_date']; ?></span>
+        </td>
+
+<td>  
+  <from>
+    <input class="btn order-details-btn" type="submit" value="details" />
+        </from>
+        </td>
+
+          
         </tr>
-    </table>
+
+        <?php } ?>
+    </table> 
 
   </section>
 

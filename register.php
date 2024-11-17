@@ -56,10 +56,13 @@ $stmt->bind_param('sss', $name, $email, md5($password));
 
 //if account created successfully
 if($stmt->execute()){
+  $stmt->fetch();
+
+  $_SESSION['user_id'] = $user_id;
 $_SESSION['user_email'] = $email;
 $_SESSION['user_name'] = $name;
 $_SESSION['logged_in'] = true;
-header('location: account.php?register=You registered successfully');
+header('location: account.php?register_success=You registered successfully');
 //account could not be created
 }else{
 header('location: register.php?error=could not create an account at the moment');
